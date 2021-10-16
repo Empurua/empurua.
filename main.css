@@ -1,6 +1,8 @@
 body {
     font-family: 'Poppins';
     background: url(Pictures/MX\ Black.jpg);
+    width: 100%;
+    margin: 0 auto;
 }
 
 h1 {
@@ -10,7 +12,7 @@ h1 {
     color:white;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 45%;
+    top: 9.5em;
     left: 50%;
 }
 
@@ -25,7 +27,7 @@ a {
     color:white;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 52%;
+    top: 30em;
     left: 50%;
     font-family: 'Poppins';
 }
@@ -35,7 +37,7 @@ a {
     color:white;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 75%;
+    top: 41em;
     left: 50%;
     font-family: 'Poppins';
 }
@@ -45,8 +47,8 @@ a {
     color:white;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 5%;
-    right: -2%;
+    top: 4em;
+    right: -2.9%;
     font-family: 'Poppins';
     list-style: none;
 }
@@ -56,8 +58,8 @@ a {
     color:white;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 92%;
-    right: 2.5%;
+    top: 55em;
+    right: 2.9%;
     font-family: 'Poppins';
     list-style: none;
 }
@@ -70,3 +72,18 @@ a {
 span {
     color:gold
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
