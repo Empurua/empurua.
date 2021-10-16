@@ -4,9 +4,10 @@
     color:white;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 53%;
+    top: 23em;
     left: 50%;
     font-family: 'Poppins'
+    
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
     color:white;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 37%;
+    top: 10em;
     left: 50%;
     font-family: 'Poppins'
 }
@@ -28,6 +29,7 @@ body {
 
 a {
     color: white;
+    letter-spacing: -1px;
     font-family: 'Poppins';
     list-style: none;
     font-size: 30px;
@@ -35,10 +37,25 @@ a {
     text-align:left;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 2em;
+    left: 4em;
 }
 
 span {
     color: gold;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.dot {
+    text-align:right;
+    color:transparent;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 55em;
+    right: 2.9%;
+    font-family: 'Poppins';
+    list-style: none;
 }
