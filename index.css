@@ -123,3 +123,32 @@ section {
     left: 50%;
     padding-top: 25%;
 }
+
+.Game {
+    position: absolute;
+    margin-left: 90vw;
+    margin-top: 5vh;
+    background: black;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.15vw;
+    padding: .5vw 2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .Game:hover {
+    background: white;
+    color: black;
+    border-color: slategray;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2vw;
+    padding: .5vw 2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
